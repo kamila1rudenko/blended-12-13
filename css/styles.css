@@ -28,3 +28,210 @@ button {
 a {
     text-decoration: none;
 }
+image {
+    display: block;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;}
+
+        .page-header {}
+    
+        .footer {}
+    
+        .container {}
+    
+        .hero {}
+    
+        .product {}
+    
+        .advantages {}
+    
+        .reviews {}
+    
+        .strategies {}
+    
+        .price {}
+    
+        .say {}
+    
+        .boost {}
+    
+        .logo {}
+    
+        .socials-list {}
+    
+        .footer-list {}
+    
+        .ftr-text {}
+    
+        .mob-icon {}
+    
+        .footer-btn {}
+    
+        .last-text {}
+    
+        .header-logo {
+            font-family: "Poppins", sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 0.93333;
+                color: #173a56;
+                padding-top: 26px;
+                    padding-bottom: 26px;
+                    margin-right: 237px;
+        }
+    
+        .header-nav {}
+    
+        .nav-list {}
+    
+        .header-btn-list {}
+    
+        .hero-title {}
+    
+        .hero-text {}
+    
+        .hero-btn-list {}
+    
+        .product-title {}
+    
+        .prod-list {}
+    
+        .prod-btn {}
+    
+        .adv-list {}
+    
+        .rws-title {}
+    
+        .rws-text {}
+    
+        .rws-list {}
+    
+        .rws-btn {}
+    
+        .strtg-title {}
+    
+        .strtg-text {}
+    
+        .strtg-list {}
+    
+        .price-title {}
+    
+        .price-text {}
+    
+        .price-list {}
+    
+        .say-title {}
+    
+        .say-text {}
+    
+        .say-list {}
+    
+        .boost-title {}
+    
+        .boost-btn {}
+    
+        .boost-img {}
+    
+        .logo-img {}
+    
+        .item-social {}
+    
+        .footer-items {}
+    
+        .nav-item {}
+    
+        .header-btn-item {}
+    
+        .hero-btn-item {}
+    
+        .prod-item {}
+    
+        .adv-item {}
+    
+        .rws-item {}
+    
+        .strtg-item {}
+    
+        .price-item {}
+    
+        .say-item {}
+    
+        .ftr-title {}
+    
+        .last-list {}
+    
+        .nav-link {}
+    
+        .header-btn {}
+    
+        .hero-btn {}
+    
+        .prod-icon {}
+    
+        .prod-subtitle {}
+    
+        .prod-text {}
+    
+        .adv-text {}
+    
+        .adv-title {}
+    
+        .adv-sub-text {}
+    
+        .management-list {}
+    
+        .support-list {}
+    
+        .collab-list {}
+    
+        .rws-item-text {}
+    
+        .strtg-item-text {}
+    
+        .strtg-sub-title {}
+    
+        .price-sub-title {}
+    
+        .prc-text {}
+    
+        .prise-icon {}
+    
+        .mini-list {}
+    
+        .price-btn {}
+    
+        .star {}
+    
+        .say-sub-text {}
+    
+        .say-sub-title {}
+    
+        .say-mini-text {}
+    
+        .last-list-item {}
+    
+        .management-item {}
+    
+        .support-item {}
+    
+        .collab-item {}
+    
+        .mini-item {}
+    
+        .management-title {}
+    
+        .management-text {}
+    
+        .advt-icon-icon {}
+    
+        .support-text {}
+    
+        .collab-title {}
+    
+        .collab-text {}
+    
+        .mini-text {}
+   
