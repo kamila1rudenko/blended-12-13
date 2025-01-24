@@ -17,11 +17,11 @@
 <body>
     <header>
 <header class="page-header">
-    <div class="container">
+    <div class="container header-cont">
             <a class="header-logo" href="./index.html">
                 <img src="./img/logo.jpg" alt="logo" width="40" height="36">
                 Product </a>
-        <nav class="header-nav"></nav>
+        <nav class="header-nav">
             <ul class="nav-list">
                 <li class="nav-item"> <a class="nav-link" href="">Product</a></li>
                 <li class="nav-item"> <a class="nav-link" href="">Pricing</a></li>
@@ -30,23 +30,28 @@
             </ul>
         </nav>
             <ul class="header-btn-list">
-                <li class="header-btn-item"><button class="header-btn" type="button">Sign In</button></li>
-                <li class="header-btn-item"><button class="header-btn" type="button">Sign Up</button></li>
+                <li class="header-btn-item"><button class="header-btn" type="button"> <span class="text-button">Sign In</span></button></li>
+                <li class="header-btn-item"><button class="header-btn" type="button"><span class="text-button">Sign In</span></button></li>
             </ul>
     </div>
     </header>
     <main>
-<section class="hero">
-    <h1 class="hero-title">Work at the speed of thought</h1>
+    <section class="hero">
+<div class="container hero-cont"> 
+    <div class="content">
+    <h1 class="hero-title">Work at the speed of thought </h1>
     <p class="hero-text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next
         user experience.</p>
     <ul class="hero-btn-list">
-        <li class="hero-btn-item" ><button class="hero-btn" type="button">Get started</button></li>
-        <li class="hero-btn-item"><button class="hero-btn" type="button">Watch the Video</button></li>
+        <li class="hero-btn-item"><button class="hero-btn-ferst" type="button">Get started</button></li>
+        <li class="hero-btn-item"> <svg class="hero-play" width="16" height="18"> <use href="./img/Triangle Copy 6.svg"></use> </svg><button class="hero-btn" type="button">Watch the Video</button></li>
     </ul>
+    </div>
     <img src="./img/hero-img.jpg" alt="hero img" width="610" height="555">
+</div>
 </section>
-<section class="product">
+<section class="product"> 
+ <div class="container">
     <h2 class="product-title">Product was Built Specifically for You</h2>
     <ul class="prod-list">
         <li class="prod-item">
@@ -79,9 +84,11 @@
         </li>
     </ul>
     <button class="prod-btn" type="button">Sign up now</button>
+ </div>
 </section>
 <section class="advantages">
     <!-- <h2>Service</h2> -->
+    <div class="container">
     <ul class="adv-list">
         <li class="adv-item">
             <p class="adv-text">Effortless Validation for</p>
@@ -149,9 +156,10 @@
         </li>
     </ul>
     <img src="./img/collaboration-img.jpg" alt="collaboration-img" width="540" height="500">
-
+    </div>
 </section>
 <section class="reviews">
+<div class="container">
     <h2 class="rws-title">Quick & Easy Process</h2>
     <p class="rws-text">Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
     <ul class="rws-list">
@@ -173,8 +181,10 @@
         </li>
     </ul>
 <button class="rws-btn" type="button">Contact our expert</button>
+</div>
 </section>
 <section class="strategies">
+<div class="container">
     <h2 class="strtg-title">Contents Strategies</h2>
     <p class="strtg-text">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
     <ul class="strtg-list">
@@ -194,9 +204,10 @@
             <h4 class="strtg-sub-title">Success Steps For Your Personal Or Business </h4>
         </li>
     </ul>
+</div>
 </section>
 <section class="price">
-
+<div class="container">
     <h2 class="price-title">Price Table</h2>
     <p class="price-text">We offer competitive price</p>
     <ul class="price-list">
@@ -259,11 +270,11 @@
             <button class="price-btn" type="button">Order Now</button>
         </li>
     </ul>
-
+</div>
 </section>
 
 <section class="say">
-
+<div class="container">
     <h2 class="say-title">What Clients Say</h2>
     <p class="say-text">Problems trying to resolve the conflict between
         the two major realms of Classical physics: Newtonian mechanics </p>
@@ -296,14 +307,18 @@
             <p class="say-mini-text">Designer</p>
         </li>
     </ul>
+    </div>
 </section>
 <section class="boost">
+<div class="container">
     <h2 class="boost-title">Join 100 Compannies who boost their business with Product</h2>
     <button class="boost-btn" type="button">Get This</button>
     <img class="boost-img" scr="./img/graphics.jpg" alt="graphics" width="351" height="331">
+</div>
 </section>
     </main>
     <footer class="footer">
+     <div class="container">
 <a class="logo" href="./index.html">
     <img class="logo-img" src="./img/logo.jpg" alt="logo" width="40" height="36">
     Product
@@ -343,6 +358,7 @@
 </form>
 <button class="footer-btn" type="button">Sign up Now</button>
 <p class="last-text">Made With Love By Figmaland All Right Reserved </p>
+     </div>
     </footer>
 </body>
 </html>

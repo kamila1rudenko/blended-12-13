@@ -34,17 +34,24 @@ image {
 .container {
     max-width: 1400px;
     padding: 0 20px;
-    margin: 0 auto;}
+    margin: 0 auto;} 
 
-        .page-header {}
+.header-cont{
+display: flex;
+align-items: center;}
+
+ .page-header { 
+ background: #fff;
+ margin-bottom: 25px;
+ }
+ .hero-cont{
+    display: flex;
+ }
+.footer {}
     
-        .footer {}
+.hero {}
     
-        .container {}
-    
-        .hero {}
-    
-        .product {}
+ .product {}
     
         .advantages {}
     
@@ -72,28 +79,110 @@ image {
     
         .last-text {}
     
-        .header-logo {
-            font-family: "Poppins", sans-serif;
-                font-weight: 700;
-                font-size: 30px;
-                line-height: 0.93333;
-                color: #173a56;
-                padding-top: 26px;
-                    padding-bottom: 26px;
-                    margin-right: 237px;
+.header-logo {
+font-family: "Poppins", sans-serif;
+ font-weight: 700;
+font-size: 30px;
+line-height: 0.93;
+color: #173a56;
+padding-top: 26px;
+padding-bottom: 26px;
+margin-right: 237px;
         }
     
-        .header-nav {}
+.header-nav {
+    margin-right: 73px;
+}
     
-        .nav-list {}
+.nav-list {
+display: flex;
+gap: 30px;
+}
     
-        .header-btn-list {}
+.header-btn-list {
+display: flex;
+gap: 21px;
+}
+.nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+    padding-top: 26px;
+        padding-bottom: 26px;
+        position: relative;
+}
+.nav-link:hover,
+.nav-link:focus {
+font-weight: 600;
+}
+.text-button {
+font-family: inherit;
+    font-weight: 600;
+}
+.header-btn {
+border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    min-width: 105px;
+    height: 42px;
+    text-align: center;
+    color: #173a56;
+    background-color: transparent;
+
+}
+.header-btn:hover, 
+.header-btn:focus {
+    color: #fff;
+    background-color: #02897a;
+    border: none;
+}
+.hero-btn-ferst {
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 4px;
+        min-width: 178px;
+        background: #02897a;
+        border: none;
+        padding: 15px 42px;
+        
+}
+
+.hero-btn{
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #02897a;
+        background: none;
+        border: none;
+        padding: 15px 42px;
+}
+.cotant {
+    width: 465px;
+    height: 331px;
+}
+.hero-title {
+    font-weight: 700;
+     font-size: 40px;
+        line-height: 1.5;
+        color: #22343d;
+        padding: 112px 35px 18px 0;
+}
     
-        .hero-title {}
+        .hero-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.56;
+        color: #22343d;
+        padding-bottom: 45px;
+        padding-right: 35px;
+        }
     
-        .hero-text {}
-    
-        .hero-btn-list {}
+        .hero-btn-list {
+            display: flex;
+        }
     
         .product-title {}
     
@@ -163,11 +252,6 @@ image {
     
         .last-list {}
     
-        .nav-link {}
-    
-        .header-btn {}
-    
-        .hero-btn {}
     
         .prod-icon {}
     
